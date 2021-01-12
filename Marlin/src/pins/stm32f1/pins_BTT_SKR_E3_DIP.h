@@ -175,7 +175,7 @@
 
   #if ENABLED(CR10_STOCKDISPLAY)
 
-    #define BEEPER_PIN                      PA15
+    #define BEEPER_PIN                      -1 //PA15 // uncoment to enable 'hell bird' beeper
 
     #define BTN_ENC                         PB6
     #define BTN_EN1                         PA9
